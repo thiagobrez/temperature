@@ -1,0 +1,21 @@
+.button-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.button {
+    flex: 1;
+    height: 35px;
+    border: 0;
+    background-color: rgb(127, 189, 169);
+    color: white;
+    font-size: 15px;
+}
+
+.disabled {
+    background-color: gray;
+    color: #fff;
+}

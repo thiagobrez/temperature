@@ -1,0 +1,16 @@
+.text-input-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.text-input {
+    flex: 1;
+    height: 35px;
+    border: 1px solid lightgray;
+    padding: 0 10px 0 10px;
+    font-family: "Apple SD Gothic Neo", serif;
+    font-size: 15px;
+}

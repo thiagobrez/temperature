@@ -1,0 +1,78 @@
+.card-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 200px;
+    margin: 10px;
+}
+
+.created-at {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.created-at-text,
+.card-temperature-text,
+.card-formatted-address-text,
+.card-postal-code-text {
+    font-family: "Apple SD Gothic Neo", serif;
+    text-align: center;
+    color: black;
+}
+
+
+.card {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+}
+
+.card-temperature {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    white-space: nowrap;
+}
+
+.card-temperature-text {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card-separator {
+    flex: 1;
+    border: 0.5px solid lightgray;
+    height: 50%;
+}
+
+.card-address {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: nowrap;
+    margin: 30px;
+}
+
+.card-formatted-address {
+    flex: 1;
+}
+
+.card-postal-code {
+    flex: 1;
+}
+
+.card-postal-code-text {
+    font-size: 14px;
+    color: gray;
+}
